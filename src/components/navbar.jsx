@@ -18,7 +18,7 @@ const Navbar = () => {
 	return (
 		<div className='d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom container pt-3'>
 			<Link to={'/'}>
-				<h1>Article Blog</h1>
+				<h1 className=' text-decoration-none text-dark'>Article Blog</h1>
 			</Link>
 
 			<nav className='d-inline-flex mt-2 mt-md-0 ms-md-auto'>
